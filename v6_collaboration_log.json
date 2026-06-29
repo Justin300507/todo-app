@@ -1,0 +1,48 @@
+{
+  "decisions": [
+    {
+      "agent": "product_manager",
+      "decision": "product_spec_created",
+      "rationale": "Simple, fast, and collaborative task management",
+      "data": {
+        "features": 8,
+        "user_stories": 10,
+        "must_have": [
+          "User Authentication",
+          "Task CRUD",
+          "List/Project Organization",
+          "Search & Filter"
+        ]
+      }
+    },
+    {
+      "agent": "architect",
+      "decision": "architecture_created",
+      "rationale": "29 endpoints across 8 files",
+      "data": {
+        "endpoints": 29
+      }
+    },
+    {
+      "agent": "tech_lead",
+      "decision": "constraints_set",
+      "rationale": "The proposed architecture covers most required resources and follows a clean modular layout, but it lacks enforced authentication on many endpoints, p",
+      "data": {
+        "critical_issues": 3,
+        "auth_endpoints": 26,
+        "pagination_required": 5
+      }
+    },
+    {
+      "agent": "orchestrator",
+      "decision": "pipeline_complete",
+      "rationale": "V6 score: 79/100",
+      "data": {
+        "total_time": 34.76,
+        "can_export": true
+      }
+    }
+  ],
+  "conflicts": [],
+  "shared_context_keys": []
+}
